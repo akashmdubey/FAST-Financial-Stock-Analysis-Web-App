@@ -108,7 +108,7 @@ def main():
         st.sidebar.write("""
         ## Choose a keyword and a prediction period 
         """)
-        keyword = st.sidebar.text_input("Keyword", "Amazon")
+        keyword = st.sidebar.text_input("Keyword", "Cognex")
         periods = st.sidebar.slider('Prediction time in days:', 7, 365, 90)
         
 

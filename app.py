@@ -97,6 +97,8 @@ def main():
     result = "F.A.S.T. WebApp"
     st.sidebar.title(result)
     st.sidebar.write("Created By: Akash M Dubey [LinkedIn](https://www.linkedin.com/in/akashmdubey/)")
+    st.sidebar.write("Checkout more projects at [www.akashmdubey.com/projects](https://akashmdubey.com/)")
+
 
     page = st.sidebar.radio("Choose a Function", ["About the Project","Live News Sentiment","Company Basic Details","Company Advanced Details","Stock Future Prediction","Google Trends with Forecast","Twitter Trends", "Meeting Summarization"])
     

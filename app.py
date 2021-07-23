@@ -110,7 +110,7 @@ def main():
         st.sidebar.write("""
         ## Choose a keyword and a prediction period 
         """)
-        keyword = st.sidebar.text_input("Keyword", "Amazon")
+        keyword = st.sidebar.text_input("Keyword", "Cognex")
         periods = st.sidebar.slider('Prediction time in days:', 7, 365, 90)
         
 
@@ -151,7 +151,7 @@ def main():
 
         st.title('Dashboard')
         import streamlit.components.v1 as components
-        components.iframe("https://app.powerbi.com/view?r=eyJrIjoiY2U0MmQ0ZDktYTY2Ny00MDI1LWFjMzEtMjE1ZDQxMzk3OGFhIiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection05422fd4ba56b92cd452", height=600, width = 900)
+        components.iframe("https://app.powerbi.com/view?r=eyJrIjoiZjMzMGUyZTEtM2RiMS00NzFlLWE3MWMtZDgzMjIxNTgxYmY3IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection842eec15de524192b588", height=600, width = 900)
 
     
     elif page == "Meeting Summarization":

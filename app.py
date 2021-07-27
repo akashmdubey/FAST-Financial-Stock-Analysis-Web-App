@@ -94,7 +94,7 @@ def main():
     #page = st.sidebar.radio("Choose a page", ["Homepage", "SignUp"])
 
     verified = "True"
-    result = "F.A.S.T. WebApp - Deloitte Interview Demo"
+    result = "F.A.S.T. WebApp - For Interview Demo"
     st.sidebar.title(result)
     st.sidebar.write("Created By: Akash M Dubey [LinkedIn](https://www.linkedin.com/in/akashmdubey/)")
     st.sidebar.write("Checkout more projects at [www.akashmdubey.com/projects](https://akashmdubey.com/)")
@@ -110,7 +110,7 @@ def main():
         st.sidebar.write("""
         ## Choose a keyword and a prediction period 
         """)
-        keyword = st.sidebar.text_input("Keyword", "Deloitte")
+        keyword = st.sidebar.text_input("Keyword", "Company name")
         periods = st.sidebar.slider('Prediction time in days:', 7, 365, 90)
         
 

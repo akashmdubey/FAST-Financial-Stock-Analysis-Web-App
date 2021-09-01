@@ -269,7 +269,7 @@ def main():
         
         # Collect Input from user :
         Topic = str()
-        Topic = str(st.sidebar.text_input("Enter the topic you are interested in (Press Enter once done)","Deloitte"))     
+        Topic = str(st.sidebar.text_input("Enter the topic you are interested in (Press Enter once done)","enter company name"))     
         
         if len(Topic) > 0 :
             
